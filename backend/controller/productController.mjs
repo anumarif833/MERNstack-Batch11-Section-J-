@@ -68,3 +68,4 @@ export const getAllProducts = async (req, res) => {
 		console.error('Error in get all products route', error);
 	}
 };
+
