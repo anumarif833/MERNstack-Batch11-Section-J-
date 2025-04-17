@@ -13,7 +13,7 @@ const app = express();
 
 app.use(
 	cors({
-		origin: ['http://localhost:5174', 'http://localhost:5173'],
+		origin: ['http://localhost:5174', 'http://localhost:5173',"https://mer-nstack-batch11-section-j-eta.vercel.app"],
 		methods: ['GET', 'PUT', 'POST', 'DELETE'],
 		credentials: true,
 		allowedHeaders: ['Content-Type', 'Authorization'],
